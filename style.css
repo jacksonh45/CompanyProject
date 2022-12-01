@@ -34,3 +34,10 @@ h2{
 a{
     color: white;
 }
+#plane:hover{
+transform: translateX(100px) translateY(-125px) rotate(-60deg);
+transition-duration: 3s;
+}
+#plane{
+transition-duration: 3s;
+}
