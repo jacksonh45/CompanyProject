@@ -1,5 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Tiro+Devanagari+Sanskrit:ital@0;1&display=swap');
-
+*{
+    grid-row: inherit;
+}
 html{
     background-image: url(airplane_50_1_1920x1080.jpeg);
     background-size: cover;
@@ -11,7 +13,7 @@ html{
     right: 0;
 }
 h1{
-
+grid: inherit;
   position: absolute;
   bottom: 75%;
   right: 40.345%;
@@ -35,9 +37,10 @@ a{
     color: white;
 }
 #plane:hover{
-transform: translateX(100px) translateY(-125px) rotate(-60deg);
-transition-duration: 3s;
+transform: translateX(600px) translateY(-600px) rotate(-60deg);
+transition-duration: 5s;
 }
-#plane{
-transition-duration: 3s;
+
+#label{
+    
 }
