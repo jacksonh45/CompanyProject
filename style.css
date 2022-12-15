@@ -27,20 +27,36 @@ grid: inherit;
     justify-content: space-between;
     border: 2px solid white;
     background-color: rgb(47 132 200);
+
 }
-h2{
+#one{
     position: absolute;
     right: 44.345%;
     bottom: 50%;
+}
+#two{
+    position: absolute;
+    right: 50%;
+    bottom: 45%;
 }
 a{
     color: white;
 }
 #plane:hover{
-transform: translateX(600px) translateY(-600px) rotate(-60deg);
-transition-duration: 5s;
+transform: translateX(50px);
+transition-duration: 3s;
 }
 
 #label{
-    
+display: grid;
+grid-auto-columns: 150px;
+}
+
+#icon{
+display: grid;
+}
+#abouth{
+    position: absolute;
+    right: 35%;
+    bottom: 50%;
 }
